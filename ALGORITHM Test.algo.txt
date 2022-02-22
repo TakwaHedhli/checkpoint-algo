@@ -1,0 +1,22 @@
+ALGORITHM Test 
+VAR
+v : integer;
+w : integer;
+c : integer;
+Begin 
+whrite (ch);
+Read (ch);
+While (ch[i] <> ".") Do 
+If (ch[i] := "a" or ch[i] := "u" or ch[i] := "o" or ch[i] := "e" or ch[i] := "y" )
+v := v + 1;
+End If
+Else If (ch[i] = " ")
+w := w + 1;
+End If
+If (ch[i] <> .)
+c := c + 1
+End If
+whrite (v);
+whrite (w);
+whrite (c);
+End
